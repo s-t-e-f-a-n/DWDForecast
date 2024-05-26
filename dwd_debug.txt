@@ -73,3 +73,561 @@ DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forec
 DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
 DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
 DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
