@@ -26,8 +26,8 @@ ENV PYTHONUNBUFFERED=1
 ENV TZ="Europe/Berlin"
 
 # Install pip requirements
-COPY ./requirements.txt .
-RUN pip3 install -r ./docker_init/requirements.txt
+COPY ./docker_init/requirements.txt .
+RUN pip3 install -r requirements.txt
 
 WORKDIR /app
 COPY ./app/. /app
