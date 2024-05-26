@@ -1,0 +1,75 @@
+ERROR:root:,GetURLForLatest Error getting data from the internet: 'Hoymiles_Power_Electronics_Inc___HM_600N__240V_'
+ERROR:root:,Trying to connect to mariaDB failed: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
+INFO:root:%s ,Main :Waiting on Queue results to be populated ...
+INFO:root:,Main :Queue length is :  1 
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1534800680.0
+DEBUG:root:,dwdforecast : -in if- time comparison : 1716732000.0 1534800680.0
+DEBUG:root:,subroutine dwdforecast shutil command execution :  <http.client.HTTPResponse object at 0x7f6b6c661550> <_io.BufferedWriter name='temp1.gz'>
+DEBUG:root:,dwdforecast : -Starting File extraction from DWD download : MOSMIX_L_2024052615_10381.kml
+DEBUG:root:,dwdforecast : -File that I extracted is zipfile : MOSMIX_L_2024052615_10381.kml
+DEBUG:root:,dwdforecast : -Starting to parse the kml Data from  MOSMIX_L_2024052615_10381.kml
+DEBUG:root:,subroutine dwdforecast Number of Timestamps in kml file is :  247
+DEBUG:root:,dwdforecast : -Starting MOSMIX print output...
+DEBUG:root:,dwdforecast : -Starting PVLIB processing ...
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 1
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 2
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 3
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 4
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 5
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 6
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 7
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 8
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 9  2024-05-26 16:00:00
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 10 246
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 11 2024-06-05 22:00:00
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 12  247
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 13 
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 14 
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 15 
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 16 
+DEBUG:root:,dwdforecast : -Starting PANDAS processing ... 17 Dataframe length : 247
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...1
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...2
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...3
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...4
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...5
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...6
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...7
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...8
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...9
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...10
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...13
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...15
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...16
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...17
+DEBUG:root:,dwdforecast : -ENDING pvlib calculations ...18
+DEBUG:root:,dwdforecast : -Starting csv Output ...
+DEBUG:root:,dwdforecast : -Starting print output from pvlib results ...
+DEBUG:root:,dwdforecast : -Starting pvlib calculations ...19
+DEBUG:root:,dwdforecast : -Starting database output from pvlib results ...
+ERROR:root:,subroutine dwdforecast final exception :  'dwdforecast' object has no attribute 'cur'
+DEBUG:root:From dwdforecast - we have found a true commit and have updated the database at the following dwd time : 1716732000.0
+INFO:root:,Main :Queue length is :  1 
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): opendata.dwd.de:80
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml HTTP/1.1" 301 162
+DEBUG:urllib3.connectionpool:http://opendata.dwd.de:80 "GET /weather/local_forecasts/mos/MOSMIX_L/single_stations/10381/kml/ HTTP/1.1" 200 None
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 26-May-2024-16:00
+DEBUG:root:,GetURLForLatest :DWD Filetimestamp found : 1716732000.0
+DEBUG:root:,dwdforecast : -BEFORE  if- time comparison : 1716732000.0 1716732000.0
