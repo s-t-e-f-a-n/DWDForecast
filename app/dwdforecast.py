@@ -134,7 +134,6 @@ import configparser
 
 import numpy as np
 import pandas as pd
-import pandas as pd
 import pvlib
 from pvlib.pvsystem import PVSystem
 from pvlib.location import Location
@@ -143,8 +142,7 @@ from pvlib.temperature import TEMPERATURE_MODEL_PARAMETERS
 import mysql.connector
 from mysql.connector import Error
 from mysql.connector import errorcode
-   
-
+from influxdb import DataFrameClient
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -198,7 +196,12 @@ class dwdforecast(threading.Thread):
             self.DBName = (self.config.get('Output', 'DBName', raw=True))
             self.DBPort = (self.config.getint('Output', 'DBPort', raw=True))
             self.DBTable = (self.config.get('Output', 'DBTable', raw=True))
-                        
+            self.InfluxDBOutput = (self.config.getint('Output', 'InfluxDBOutput', raw=True))
+            self.InfluxDBHost = (self.config.get('Output', 'InfluxDBHost', raw=True))
+            self.InfluxDBName = (self.config.get('Output', 'InfluxDBName', raw=True))
+            self.InfluxDBPort = (self.config.getint('Output', 'InfluxDBPort', raw=True))
+            self.InfluxDBTable = (self.config.get('Output', 'InfluxDBTable', raw=True))
+
             self.mytemperature_model_parameters = TEMPERATURE_MODEL_PARAMETERS['sapm'][self.mytemperature_model]
             if (self.mymoddb=='cecmod'):
                 self.sandia_modules = pvlib.pvsystem.retrieve_sam(name=self.mymoddb)
@@ -216,9 +219,17 @@ class dwdforecast(threading.Thread):
                 try:
                     self.db = mysql.connector.connect(user=self.DBUser ,passwd=self.DBPassword, host=self.DBHost, port = self.DBPort, database=self.DBName,autocommit=True)           #Connect string to the database - we are setting
                     self.cur = self.db.cursor() 
-                    print ("I have set my DB connection")
+                    print ("I have set my MariaDB connection")
                 except Exception as ErrorDBConnect:
-                    logging.error("%s %s",",Trying to connect to mariaDB failed:", ErrorDBConnect)
+                    logging.error("%s %s",",Trying to connect to MariaDB failed:", ErrorDBConnect)
+                    print ("Unable to connect to database", ErrorDBConnect)
+            if (self.InfluxDBOutput ==1):
+                try:
+                    self.influxdb = DataFrameClient(self.InfluxDBHost, self.InfluxDBPort, '', '', self.InfluxDBName)
+                    self.influxdb.create_database(self.InfluxDBName)
+                    print ("I have set my InfluxDB connection")
+                except Exception as ErrorDBConnect:
+                    logging.error("%s %s",",Trying to connect to InfluxDB failed:", ErrorDBConnect)
                     print ("Unable to connect to database", ErrorDBConnect)
         except Exception as ErrorConfigParse:
             logging.error("%s %s",",GetURLForLatest Error getting data from the internet:", ErrorConfigParse)
@@ -678,7 +689,7 @@ class dwdforecast(threading.Thread):
                         self.PandasDF['DCSim']= self.myModelChain.results.dc.p_mp
                         logging.debug("%s" ,",dwdforecast : -ENDING pvlib calculations ...18")
                         # =============================================================================
-                        # STARTING  Database Processing
+                        # STARTING  CVS Output Processing
                         # =============================================================================                        
                         if (self.CSVOutput ==1):
                             try:
@@ -699,11 +710,11 @@ class dwdforecast(threading.Thread):
                                 logging.error ("%s %s", ",subroutine dwdforecast  exception during CSVOutput : ", ErrorPrintOutput)
 
                         # =============================================================================
-                        # STARTING  Database Processing
+                        # STARTING  MariaDB Database Processing
                         # =============================================================================
                         logging.debug("%s" ,",dwdforecast : -Starting pvlib calculations ...19")
                         if (self.DBOutput == 1):
-                            logging.debug("%s" ,",dwdforecast : -Starting database output from pvlib results ...")
+                            logging.debug("%s" ,",dwdforecast : -Starting MariaDB output from pvlib results ...")
                             self.Databaselasttimestamp= self.findlastDBtimestamp(self.cur, self.DBTable)
                             
                             self.PandasDFFirstTimestamp = self.PandasDF['mytimestamp'].iloc[0]
@@ -713,6 +724,7 @@ class dwdforecast(threading.Thread):
                             self.indexcounter_addrows=0     #pure initialization
                             self.MyWeathervalues ={}
                             try:
+                                self.PandasDF = self.PandasDF.reset_index()
                                 for index, row in self.PandasDF.iterrows():
                                     self.PandasDFFirstTimestamp = row['mytimestamp']
                                     self.Database_found_filetimestamp = self.checkTimestampExistence(self.cur, self.DBTable, int(self.PandasDFFirstTimestamp))
@@ -726,6 +738,23 @@ class dwdforecast(threading.Thread):
                                         #self.updatesingleRowinDB(self.cur, "dwd",
                                         #self.updatesingleRowinDB(self.cur, "dwd", TTT, Rad1h, FF, PPPP, mytimestamp, Rad1Energy, ACSim, DCSim, CellTempSim)
                                         self.updatesingleRowinDB(self.cur, self.DBTable, row['TTT'], row['Rad1h'], row['FF'], row['PPPP'], row['mytimestamp'], row['Rad1Energy'], row['ACSim'], row['DCSim'], row['CellTempSim'], row['Rad1wh'])
+                                print ("Completed to write combined results from DWD and PVLIB into MariaDB.")
+                            except Exception as ErrorDBCommit:
+                                print ("Error during database commit from dwdforecast :", ErrorDBCommit)
+                        # =============================================================================
+                        # STARTING  InfluxDB Database Processing
+                        # =============================================================================
+                        if (self.InfluxDBOutput == 1):
+                            logging.debug("%s" ,",dwdforecast : -Starting InfluxDB output from pvlib results ...")
+                            self.MyWeathervalues ={}
+                            try:
+                                self.PandasDF = self.PandasDF.reset_index()
+                                for index, row in self.PandasDF.iterrows():
+                                    self.MyWeathervalues.update({'mydatetime':row['mydatetime'],'Rad1h':row['Rad1h'],'TTT':row['TTT'],'PPPP':row['PPPP'],'FF':row['FF'],'Rad1wh':row['Rad1wh'],'Rad1Energy':row['Rad1Energy'],'mytimestamp':row['mytimestamp'],'ACSim':row['ACSim'],'CellTempSim':row['CellTempSim'],'DCSim':row['DCSim']})                                    
+                                    df = pd.DataFrame.from_records([self.MyWeathervalues], index='mydatetime')
+                                    df.index = pd.to_datetime(df.index)
+                                    self.influxdb.write_points(df, self.InfluxDBTable, protocol='line')
+                                print ("Completed to write combined results from DWD and PVLIB into InfluxDB.")
                             except Exception as ErrorDBCommit:
                                 print ("Error during database commit from dwdforecast :", ErrorDBCommit)
                         # =============================================================================                            
