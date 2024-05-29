@@ -12,7 +12,9 @@ services:
       - ./config/:/app/config:ro
       - /etc/localtime:/etc/localtime:ro
     networks:
-      - iot
+      - mynet
 
 networks:
-  iot:
+  mynet:
+    name: iot_iot
+    external: true
