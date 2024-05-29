@@ -11,13 +11,8 @@ services:
     volumes:
       - ./config/:/app/config:ro
       - /etc/localtime:/etc/localtime:ro
-    ports:
-      - "3306:3306"
     networks:
       - iot
 
 networks:
   iot:
-
-#volumes:
-#  dwdforecast_db:

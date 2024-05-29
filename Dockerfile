@@ -1,20 +1,6 @@
-FROM mariadb:latest AS marithon
-
-ADD ./docker_init/setup.sql  /docker-entrypoint-initdb.d/
-
-ENV MYSQL_ROOT_PASSWORD root
-ENV MYSQL_DATABASE DWDForecast
-ENV MYSQL_USER dwd
-ENV MYSQL_PASSWORD dwd
-
-EXPOSE 3306
-
-RUN apt-get update && apt-get -y install \ 
-       vim python3 python3-pip telnet \
-    && ln -s /usr/bin/python3 /usr/bin/python
-
-COPY --chown=root:root docker_entrypoint.sh /
-RUN chmod +x docker_entrypoint.sh
+# For more information, please refer to https://aka.ms/vscode-docker-python
+FROM python:3.10-slim
+LABEL stage=builder
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -27,9 +13,15 @@ ENV TZ="Europe/Berlin"
 
 # Install pip requirements
 COPY ./docker_init/requirements.txt .
-RUN pip3 install -r requirements.txt
+RUN python -m pip install -r requirements.txt
 
 WORKDIR /app
-COPY ./app/. /app
+COPY ./app/dwdforecast.py /app
 
-ENTRYPOINT ["/docker_entrypoint.sh"]
+# Creates a non-root user with an explicit UID and adds permission to access the /app folder
+# For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
+RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
+USER appuser
+
+# During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
+CMD ["python", "dwdforecast.py"]
