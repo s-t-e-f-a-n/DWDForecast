@@ -278,8 +278,16 @@ class dwdforecast(threading.Thread):
             if (counter >0):
                 words =elements.split()
                 mytime = words[0] +"-" + words[1]
+                if mytime.count(":") == 2:
+                    format_string = "%d-%b-%Y-%H:%M:%S"
+                else:
+                    format_string = "%d-%b-%Y-%H:%M"
                 logging.debug("%s %s" ,",GetURLForLatest :DWD Filetimestamp found :", mytime)
-                mynewtime =time.mktime(datetime.datetime.strptime(mytime, "%d-%b-%Y-%H:%M").timetuple())
+                try:
+                    mynewtime =time.mktime(datetime.datetime.strptime(mytime, format_string).timetuple())
+                except Exception as ErrorConvertTime:
+                    print("%s %s",",GetURLForLatest Error converting time:", ErrorConvertTime)
+                    
                 logging.debug("%s %s" ,",GetURLForLatest :DWD Filetimestamp found :", mynewtime)
                 #print ("From function GetURLForLatest -mynewtime", 2*mynewtime)
             
@@ -403,8 +411,8 @@ class dwdforecast(threading.Thread):
                 # =============================================================================
                 try:
                     self.mydownloadfiles, self.mynewtime = self.GetURLForLatest(self.urlpath, self.ext)
-                    #print ("Downloadfiles = ", self.mydownloadfiles)
-                    #print ("Timestamp    = ", self.mynewtime)
+                    print ("Downloadfiles = ", self.mydownloadfiles)
+                    print ("Timestamp    = ", self.mynewtime)
                 except Exception as ErrorReadFromDWD:
                     logging.error("%s %s" ,",dwdforecast  :", ErrorReadFromDWD)
             
